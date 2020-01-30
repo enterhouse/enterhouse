@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+html body{
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	background-color: #e4dcdff3;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: x-large;
+	color: #f3f0e3;
+}
+
+.carousel-item {
+	height: 90vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+  }
+  @media (max-width:600px){
+	  .carousel-item{
+		  height: 86vh;
+	  }
+  }
+
+
+
+.navbar{
+	background-color: #ffbf00 !important;
+	opacity: 1 ;
+}
+ul li a{
+	list-style: lower-alpha;
+	color: #1d011d ;
+}
+
+ h3 p a{
+	 list-style: none;
+ }
+  
+
+.card{
+	background-color: inherit;
+}
+
+.header-style{
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.2em;
+	color: #7b7c6a;
+}
+.sub-header-style{
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.1em;
+	color: #4e0808;
+}
+
+.fa-instagram{
+	color: #7b44af;
+  }
+
+  .fa-envelope{
+	color: #420b0b;
+  }
+
+  .fa-phone{
+	  color: #000;
+  }
+
+  .fa-whatsapp{
+	  color: green;
+  }
+
+#icons{
+	display: grid;
+	grid-auto-flow: row;
+	font-size: 2em;
+	padding: 10px;
+	font-style: none;
+	
+}
+
+.G-container{
+	display: grid;
+	background-color: #ffbf00 !important;
+	padding: 0;
+	margin: 0;
+	grid-template-columns:repeat(3, 1fr);
+	
+	
+}
+#icons{
+	grid-column: 1/2;
+}
+.h3{
+	grid-column: 2/3;
+}
+
+.a{
+	height: auto;
+	width: 10%;
+}
